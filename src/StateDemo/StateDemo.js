@@ -171,10 +171,11 @@ export default class StateDemo extends Component {
 									<button onClick={() => { this.handleChangeColor('Black') }} style={{background:'Black'}}/*  onClick={()=>{this.setState({imgSrc:'./img/CarBasic/products/black-car.jpg'})}} */className="btn text-white">Black</button>
 								</div>
 								<div className="col-3">
-									<button onClick={() => { this.handleChangeColor('Gray') }} style={{background:'Gray'}} /*onClick={()=>{this.setState({imgSrc:'./img/CarBasic/products/steel-car.jpg'})}} */ className="btn text-white">Steel</button>
+									<button onClick={() => { this.handleChangeColor('Steel') }} style={{background:'Gray'}} /*onClick={()=>{this.setState({imgSrc:'./img/CarBasic/products/steel-car.jpg'})}} */ className="btn text-white">Steel</button>
 								</div>
 							</div>
 						</div>
+						
 					</div>
 				</div>
 			</div>
