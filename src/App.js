@@ -7,8 +7,10 @@
 // import HandleEvent from "./HandleEvent/HandleEvent";
 // import StyleComponent from "./StyleComponent/StyleComponent";
 // import StateDemo from "./StateDemo/StateDemo";
+// import HomeLayout from "./Props/DemoProps/HomeLayout";
+// import RenderWithMap from "./RednderWithMap/RenderWithMap";
 
-import HomeLayout from "./Props/DemoProps/HomeLayout";
+import ShoesShop from "./Props/ShoesShop/ShoesShop";
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
       <p>ahihi</p>
       <p className="fontBold">1213123</p> */}
       {/* {<StateDemo></StateDemo>} */}
-        <HomeLayout/>
+      {/* <HomeLayout/> */}
+      {/* <RenderWithMap></RenderWithMap> */}
+      <ShoesShop></ShoesShop>
     </div>
   );
 }

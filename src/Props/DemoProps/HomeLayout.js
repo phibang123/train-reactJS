@@ -32,7 +32,7 @@ export default class HomeLayout extends Component {
                         <ProductDemo productName="Sony" price="2123130000"/>
                     </div> */}
                     <div className="col-4">
-                        <ProductDemo product={this.arrProduct[0]}/>
+                        <ProductDemo product={this.arrProduct[0]}/> 
                     </div>
                      <div className="col-4">
                         <ProductDemo product={this.arrProduct[1]}/>
