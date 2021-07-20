@@ -6,8 +6,9 @@
 // import Demo from './Databinding/Demo';
 // import HandleEvent from "./HandleEvent/HandleEvent";
 // import StyleComponent from "./StyleComponent/StyleComponent";
+// import StateDemo from "./StateDemo/StateDemo";
 
-import StateDemo from "./StateDemo/StateDemo";
+import HomeLayout from "./Props/DemoProps/HomeLayout";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* {<StyleComponent></StyleComponent>}
       <p>ahihi</p>
       <p className="fontBold">1213123</p> */}
-      {<StateDemo></StateDemo>}
+      {/* {<StateDemo></StateDemo>} */}
+        <HomeLayout/>
     </div>
   );
 }
