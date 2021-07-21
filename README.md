@@ -22,3 +22,9 @@ this.props: là 1 thuộ tính có sẵn của react class
 
       
              -thi.props dùng để nhận giá trị từ component cha(nơi sử dụng thẻ đó) truyền vào. lưu ý không thể gna1 lại giá trị đó      
+
+
+
+
+
+             quy tắc  
