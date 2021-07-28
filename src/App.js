@@ -8,7 +8,9 @@
 // import StyleComponent from "./StyleComponent/StyleComponent";
 // import StateDemo from "./StateDemo/StateDemo";
 
-import HomeLayout from "./Props/DemoProps/HomeLayout";
+import ExerciseCart from "./BaiTapNew/ExerciseCart/ExerciseCart";
+
+// import HomeLayout from "./Props/DemoProps/HomeLayout";
 
 function App() {
   return (
@@ -21,7 +23,8 @@ function App() {
       <p>ahihi</p>
       <p className="fontBold">1213123</p> */}
       {/* {<StateDemo></StateDemo>} */}
-        <HomeLayout/>
+      {/* <HomeLayout/> */}
+      <ExerciseCart></ExerciseCart>
     </div>
   );
 }
