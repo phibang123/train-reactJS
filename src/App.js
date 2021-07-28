@@ -7,10 +7,10 @@
 // import HandleEvent from "./HandleEvent/HandleEvent";
 // import StyleComponent from "./StyleComponent/StyleComponent";
 // import StateDemo from "./StateDemo/StateDemo";
-
-import ExerciseCart from "./BaiTapNew/ExerciseCart/ExerciseCart";
-
+// import ExerciseCart from "./BaiTapNew/ExerciseCart/ExerciseCart";
 // import HomeLayout from "./Props/DemoProps/HomeLayout";
+
+import  BaiTapGioHang  from "./DemoRedux/BaiTapGioHang/BaiTapGioHang";
 
 function App() {
   return (
@@ -24,7 +24,8 @@ function App() {
       <p className="fontBold">1213123</p> */}
       {/* {<StateDemo></StateDemo>} */}
       {/* <HomeLayout/> */}
-      <ExerciseCart></ExerciseCart>
+      {/* <ExerciseCart></ExerciseCart> */}
+      <BaiTapGioHang></BaiTapGioHang>
     </div>
   );
 }
