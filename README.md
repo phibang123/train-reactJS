@@ -1,7 +1,20 @@
 đây là dự án để học
 
 
-Buổi 3: react
+Bài Tập 3: react Oan Tù Tì
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Props(dùng dể tái sử dụng khi bạn ở nhiều)
 
@@ -22,3 +35,4 @@ this.props: là 1 thuộ tính có sẵn của react class
 
       
              -thi.props dùng để nhận giá trị từ component cha(nơi sử dụng thẻ đó) truyền vào. lưu ý không thể gna1 lại giá trị đó      
+             

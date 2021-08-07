@@ -7,8 +7,9 @@
 // import HandleEvent from "./HandleEvent/HandleEvent";
 // import StyleComponent from "./StyleComponent/StyleComponent";
 // import StateDemo from "./StateDemo/StateDemo";
+// import HomeLayout from "./Props/DemoProps/HomeLayout";
 
-import HomeLayout from "./Props/DemoProps/HomeLayout";
+import BaiTapGameOanTuTiReducer from "./BaiTapOanTuTi/BaiTapGameOanTuTi";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       <p>ahihi</p>
       <p className="fontBold">1213123</p> */}
       {/* {<StateDemo></StateDemo>} */}
-        <HomeLayout/>
+      {/* <HomeLayout/> */}
+      <BaiTapGameOanTuTiReducer ></BaiTapGameOanTuTiReducer>
     </div>
   );
 }
