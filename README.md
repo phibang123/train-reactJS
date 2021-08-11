@@ -1,9 +1,59 @@
 đây là dự án để học
 
 
-Buổi 3: react
+Buổi 8: react
 
-Props(dùng dể tái sử dụng khi bạn ở nhiều)
+/*
+   =>{return } <=> ()
+*/
+cach1: const mapStateToProps = (state) =>
+
+     return {
+        mangNguoiDung: state.baiTapQuanLyNguoiDungReducer.mangNguoiDung
+     }
+ }
+cach2: const mapStateToProps = (state) =>
+({
+     mangNguoiDung: state.baiTapQuanLyNguoiDungReducer.mangNguoiDung
+})
+
+lưu ý setstate luôn luôn mất 1 nhịp nên muốn coi chính sác thì
+vd:
+ handleChangeInput = (event) =>
+    {
+        let { value, name } = event.target;
+        this.setState({
+            [name]: value
+        },() =>{
+          //kiểm tra giá trị khi state thay đổi và state render
+            console.log(this.state) //gọi ở tham số sao setstate
+        })
+       
+    }
+   
+
+   state.mangNguoiDung = [...state.mangNguoiDung,action.nguoiDung]
+     /*action.mangNguoiDung cũng giống như
+        state.mangNguoiDung.push(action.nguoiDung) **sao dấu , nó sẻ thêm hàm push
+        là cái state.mangNguoiDung nó sao chép cái stateDefault và push thêm action.nguoiDung */
+
+
+        đối với redux giá trị state objeckt hay mảng thì phải chp1 ra objeckt mới hay mảng mới thì redux nó mởi hểu chúng ta 
+        thay đổi giá trị nế chúng ta push trực thiếp vào stateDefault, nó vẫn sẻ thay đổi nhưng mà reudx ko load lại
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 this.props: là 1 thuộ tính có sẵn của react class
@@ -21,4 +71,8 @@ this.props: là 1 thuộ tính có sẵn của react class
 
 
       
-             -thi.props dùng để nhận giá trị từ component cha(nơi sử dụng thẻ đó) truyền vào. lưu ý không thể gna1 lại giá trị đó      
+             -thi.props dùng để nhận giá trị từ component cha(nơi sử dụng thẻ đó) truyền vào. lưu ý không thể gna1 lại giá trị đó     
+
+
+
+       

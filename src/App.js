@@ -8,8 +8,9 @@
 // import StyleComponent from "./StyleComponent/StyleComponent";
 // import StateDemo from "./StateDemo/StateDemo";
 // import HomeLayout from "./Props/DemoProps/HomeLayout";
+// import BaiTapGameXucXac from "./DemoRedux/BaiTapGameXucXac/BaiTapGameXucXac";
 
-import BaiTapGameXucXac from "./DemoRedux/BaiTapGameXucXac/BaiTapGameXucXac";
+import BaiTapQuanLyNguoiDung from "./DemoRedux/BaiTapQuanLyNguoiDung/BaiTapQuanLyNguoiDung";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <p className="fontBold">1213123</p> */}
       {/* {<StateDemo></StateDemo>} */}
       {/* <HomeLayout /> */}
-      <BaiTapGameXucXac></BaiTapGameXucXac>
+      {/* <BaiTapGameXucXac></BaiTapGameXucXac> */}
+      <BaiTapQuanLyNguoiDung></BaiTapQuanLyNguoiDung>
     </div>
   );
 }
