@@ -12,6 +12,8 @@
 
 import BaiTapQuanLyNguoiDung from "./DemoRedux/BaiTapQuanLyNguoiDung/BaiTapQuanLyNguoiDung";
 
+//import LifeCycleReact from './LifeCycleReact/LifeCycleReact'
+
 function App() {
   return (
     <div className="App">
@@ -26,6 +28,7 @@ function App() {
       {/* <HomeLayout /> */}
       {/* <BaiTapGameXucXac></BaiTapGameXucXac> */}
       <BaiTapQuanLyNguoiDung></BaiTapQuanLyNguoiDung>
+      {/* <LifeCycleReact></LifeCycleReact> */}
     </div>
   );
 }
