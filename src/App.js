@@ -9,10 +9,10 @@
 // import StateDemo from "./StateDemo/StateDemo";
 // import HomeLayout from "./Props/DemoProps/HomeLayout";
 // import BaiTapGameXucXac from "./DemoRedux/BaiTapGameXucXac/BaiTapGameXucXac";
-
-import BaiTapQuanLyNguoiDung from "./DemoRedux/BaiTapQuanLyNguoiDung/BaiTapQuanLyNguoiDung";
-
+//import BaiTapQuanLyNguoiDung from "./DemoRedux/BaiTapQuanLyNguoiDung/BaiTapQuanLyNguoiDung";
 //import LifeCycleReact from './LifeCycleReact/LifeCycleReact'
+
+import BaiTapQuanLySinhVien from './DemoRedux/BaiTapLifeCycle/BaiTapQuanLySinhVien'
 
 function App() {
   return (
@@ -27,8 +27,9 @@ function App() {
       {/* {<StateDemo></StateDemo>} */}
       {/* <HomeLayout /> */}
       {/* <BaiTapGameXucXac></BaiTapGameXucXac> */}
-      <BaiTapQuanLyNguoiDung></BaiTapQuanLyNguoiDung>
+      {/* <BaiTapQuanLyNguoiDung></BaiTapQuanLyNguoiDung> */}
       {/* <LifeCycleReact></LifeCycleReact> */}
+      <BaiTapQuanLySinhVien></BaiTapQuanLySinhVien>
     </div>
   );
 }

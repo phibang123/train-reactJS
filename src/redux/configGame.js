@@ -1,13 +1,15 @@
 import { combineReducers, createStore } from "redux";
 
-import { baiTapQuanLyNguoiDungReducer } from "./baiTapQuanLyNguoiDungReducer";
+import { baiTapQuanLySinhVienReducer } from "./baiTapQuanLySinhVienReducer";
 
+//import { baiTapQuanLyNguoiDungReducer } from "./baiTapQuanLyNguoiDungReducer";
 // import { baiTapGameXucXacReducer } from "./baiTapGameXucXacReducer";
 
 
 const rootReducer = combineReducers({
     // baiTapGameXucXacReducer
-    baiTapQuanLyNguoiDungReducer
+    // baiTapQuanLyNguoiDungReducer
+    baiTapQuanLySinhVienReducer
 })
 
 
